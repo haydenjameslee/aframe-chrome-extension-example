@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "A-Frame Chrome Extension Example",
+  "description": "This extension lets you add A-Frame primitives into a scene.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
